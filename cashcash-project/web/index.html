@@ -8,23 +8,39 @@
 </head>
 <body>
     <div class="container">
+        <!-- Logo ve Başlık -->
         <h1>CASHCASH</h1>
         <p class="subtitle">30 Günlük Dev Cam Fanus Yarışması</p>
         
+        <!-- Cam Fanus Alanı -->
         <div class="dome-container">
+            <!-- Fanus Görseli (İstediğiniz zaman src'yi değiştirebilirsiniz) -->
             <img src="https://via.placeholder.com/300x400/2a2a4a/8a2be2?text=Cam+Fanus" alt="Cam Fanus" class="dome-img">
-            <div class="progress-bar"><div class="progress" style="width: 0%;"></div></div>
+            
+            <!-- Fanusun Doluluk Çubuğu -->
+            <div class="progress-bar">
+                <div class="progress" style="width: 0%;"></div>
+            </div>
         </div>
+
+        <!-- 30 Günlük Geri Sayım Alanı -->
+        <p class="countdown-text">Yarışmanın Bitmesine Kalan Süre:</p>
+        <h2 id="countdown" style="color: #00ffcc; margin-bottom: 20px;">Yükleniyor...</h2>
 
         <p>Fanus doluyor! İlk 10 kişi ödülü paylaşacak.</p>
         
+        <!-- Android Uygulama İndirme Butonu -->
+        <!-- href="#" kısmına APK indirme linkinizi (veya Google Play linkinizi) yapıştıracaksınız -->
         <a href="#" class="btn-primary">Android Uygulamasını İndir</a>
         
+        <!-- Alt Linkler -->
         <div class="links">
             <a href="privacy.html">Gizlilik Politikası</a>
             <a href="terms.html">Kullanım Koşulları</a>
         </div>
     </div>
+    
+    <!-- Firebase ve Site Mantığı -->
     <script src="script.js"></script>
 </body>
 </html>
