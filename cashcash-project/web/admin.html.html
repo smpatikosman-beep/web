@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>CASHCASH Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Paneli</h1>
+        <h2>Kazananları Belirle (30 Gün Sonu)</h2>
+        <table id="winnersTable">
+            <tr>
+                <th>Sıra</th>
+                <th>Kullanıcı Adı</th>
+                <th>Toplam Puan</th>
+                <th>İşlem</th>
+            </tr>
+            <!-- Firebase'den çekilecek -->
+        </table>
+        <button onclick="secWinners()">İlk 10 Kişiyi Seç ve Ödemeleri Başlat</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
